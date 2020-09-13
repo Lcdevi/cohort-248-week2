@@ -1,0 +1,24 @@
+* {
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#pixel {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+#container-div {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
